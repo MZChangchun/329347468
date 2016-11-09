@@ -15,6 +15,8 @@
 		FADA509E1DD2B6E60039DD9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADA509C1DD2B6E60039DD9B /* LaunchScreen.storyboard */; };
 		FADA50A91DD2B6E60039DD9B /* TouchResponseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FADA50A81DD2B6E60039DD9B /* TouchResponseTests.m */; };
 		FADA50B41DD2B6E60039DD9B /* TouchResponseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FADA50B31DD2B6E60039DD9B /* TouchResponseUITests.m */; };
+		FADA50C51DD2B7270039DD9B /* ZDYView.m in Sources */ = {isa = PBXBuildFile; fileRef = FADA50C21DD2B7270039DD9B /* ZDYView.m */; };
+		FADA50C61DD2B7270039DD9B /* TouchEventTransferView.m in Sources */ = {isa = PBXBuildFile; fileRef = FADA50C41DD2B7270039DD9B /* TouchEventTransferView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		FADA50AF1DD2B6E60039DD9B /* TouchResponseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchResponseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADA50B31DD2B6E60039DD9B /* TouchResponseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchResponseUITests.m; sourceTree = "<group>"; };
 		FADA50B51DD2B6E60039DD9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADA50C11DD2B7270039DD9B /* ZDYView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDYView.h; sourceTree = "<group>"; };
+		FADA50C21DD2B7270039DD9B /* ZDYView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDYView.m; sourceTree = "<group>"; };
+		FADA50C31DD2B7270039DD9B /* TouchEventTransferView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchEventTransferView.h; sourceTree = "<group>"; };
+		FADA50C41DD2B7270039DD9B /* TouchEventTransferView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchEventTransferView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,10 @@
 				FADA50941DD2B6E60039DD9B /* ViewController.h */,
 				FADA50951DD2B6E60039DD9B /* ViewController.m */,
 				FADA50971DD2B6E60039DD9B /* Main.storyboard */,
+				FADA50C11DD2B7270039DD9B /* ZDYView.h */,
+				FADA50C21DD2B7270039DD9B /* ZDYView.m */,
+				FADA50C31DD2B7270039DD9B /* TouchEventTransferView.h */,
+				FADA50C41DD2B7270039DD9B /* TouchEventTransferView.m */,
 				FADA509A1DD2B6E60039DD9B /* Assets.xcassets */,
 				FADA509C1DD2B6E60039DD9B /* LaunchScreen.storyboard */,
 				FADA509F1DD2B6E60039DD9B /* Info.plist */,
@@ -275,7 +285,9 @@
 			files = (
 				FADA50961DD2B6E60039DD9B /* ViewController.m in Sources */,
 				FADA50931DD2B6E60039DD9B /* AppDelegate.m in Sources */,
+				FADA50C51DD2B7270039DD9B /* ZDYView.m in Sources */,
 				FADA50901DD2B6E60039DD9B /* main.m in Sources */,
+				FADA50C61DD2B7270039DD9B /* TouchEventTransferView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
