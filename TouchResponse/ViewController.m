@@ -25,7 +25,7 @@
     [self.view addSubview:myTableView];
     
     
-    //    TouchEventTransferView * view = [[TouchEventTransferView alloc]initWithFrame:CGRectMake(0, 0, ScreenSize.width, ScreenSize.height)];
+    //    TouchEventTransferView * view = [[TouchEventTransferView alloc]initWithFrame:CGRectMake(0, 0, ScreenSize.width, ScreenSize.height)];1
     //    view.backgroundColor = [UIColor purpleColor];
     //    view.alpha = 0.3;
     //    [self.view addSubview:view];

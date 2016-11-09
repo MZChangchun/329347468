@@ -2,8 +2,6 @@
 //  TestTouchEvnetView.m
 //  TestTouchEvent
 
-//
-
 #import "TouchEventTransferView.h"
 
 @implementation TouchEventTransferView
