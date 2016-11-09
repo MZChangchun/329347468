@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FADA50901DD2B6E60039DD9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FADA508F1DD2B6E60039DD9B /* main.m */; };
+		FADA50931DD2B6E60039DD9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FADA50921DD2B6E60039DD9B /* AppDelegate.m */; };
+		FADA50961DD2B6E60039DD9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FADA50951DD2B6E60039DD9B /* ViewController.m */; };
+		FADA50991DD2B6E60039DD9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADA50971DD2B6E60039DD9B /* Main.storyboard */; };
+		FADA509B1DD2B6E60039DD9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADA509A1DD2B6E60039DD9B /* Assets.xcassets */; };
+		FADA509E1DD2B6E60039DD9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADA509C1DD2B6E60039DD9B /* LaunchScreen.storyboard */; };
+		FADA50A91DD2B6E60039DD9B /* TouchResponseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FADA50A81DD2B6E60039DD9B /* TouchResponseTests.m */; };
+		FADA50B41DD2B6E60039DD9B /* TouchResponseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FADA50B31DD2B6E60039DD9B /* TouchResponseUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FADA50A51DD2B6E60039DD9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FADA50831DD2B6E60039DD9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FADA508A1DD2B6E60039DD9B;
+			remoteInfo = TouchResponse;
+		};
+		FADA50B01DD2B6E60039DD9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FADA50831DD2B6E60039DD9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FADA508A1DD2B6E60039DD9B;
+			remoteInfo = TouchResponse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FADA508B1DD2B6E60039DD9B /* TouchResponse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchResponse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADA508F1DD2B6E60039DD9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FADA50911DD2B6E60039DD9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FADA50921DD2B6E60039DD9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FADA50941DD2B6E60039DD9B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FADA50951DD2B6E60039DD9B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FADA50981DD2B6E60039DD9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FADA509A1DD2B6E60039DD9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FADA509D1DD2B6E60039DD9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FADA509F1DD2B6E60039DD9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADA50A41DD2B6E60039DD9B /* TouchResponseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchResponseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADA50A81DD2B6E60039DD9B /* TouchResponseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchResponseTests.m; sourceTree = "<group>"; };
+		FADA50AA1DD2B6E60039DD9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADA50AF1DD2B6E60039DD9B /* TouchResponseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchResponseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADA50B31DD2B6E60039DD9B /* TouchResponseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchResponseUITests.m; sourceTree = "<group>"; };
+		FADA50B51DD2B6E60039DD9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FADA50881DD2B6E60039DD9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADA50A11DD2B6E60039DD9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADA50AC1DD2B6E60039DD9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FADA50821DD2B6E60039DD9B = {
+			isa = PBXGroup;
+			children = (
+				FADA508D1DD2B6E60039DD9B /* TouchResponse */,
+				FADA50A71DD2B6E60039DD9B /* TouchResponseTests */,
+				FADA50B21DD2B6E60039DD9B /* TouchResponseUITests */,
+				FADA508C1DD2B6E60039DD9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FADA508C1DD2B6E60039DD9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FADA508B1DD2B6E60039DD9B /* TouchResponse.app */,
+				FADA50A41DD2B6E60039DD9B /* TouchResponseTests.xctest */,
+				FADA50AF1DD2B6E60039DD9B /* TouchResponseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FADA508D1DD2B6E60039DD9B /* TouchResponse */ = {
+			isa = PBXGroup;
+			children = (
+				FADA50911DD2B6E60039DD9B /* AppDelegate.h */,
+				FADA50921DD2B6E60039DD9B /* AppDelegate.m */,
+				FADA50941DD2B6E60039DD9B /* ViewController.h */,
+				FADA50951DD2B6E60039DD9B /* ViewController.m */,
+				FADA50971DD2B6E60039DD9B /* Main.storyboard */,
+				FADA509A1DD2B6E60039DD9B /* Assets.xcassets */,
+				FADA509C1DD2B6E60039DD9B /* LaunchScreen.storyboard */,
+				FADA509F1DD2B6E60039DD9B /* Info.plist */,
+				FADA508E1DD2B6E60039DD9B /* Supporting Files */,
+			);
+			path = TouchResponse;
+			sourceTree = "<group>";
+		};
+		FADA508E1DD2B6E60039DD9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FADA508F1DD2B6E60039DD9B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FADA50A71DD2B6E60039DD9B /* TouchResponseTests */ = {
+			isa = PBXGroup;
+			children = (
+				FADA50A81DD2B6E60039DD9B /* TouchResponseTests.m */,
+				FADA50AA1DD2B6E60039DD9B /* Info.plist */,
+			);
+			path = TouchResponseTests;
+			sourceTree = "<group>";
+		};
+		FADA50B21DD2B6E60039DD9B /* TouchResponseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FADA50B31DD2B6E60039DD9B /* TouchResponseUITests.m */,
+				FADA50B51DD2B6E60039DD9B /* Info.plist */,
+			);
+			path = TouchResponseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FADA508A1DD2B6E60039DD9B /* TouchResponse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADA50B81DD2B6E60039DD9B /* Build configuration list for PBXNativeTarget "TouchResponse" */;
+			buildPhases = (
+				FADA50871DD2B6E60039DD9B /* Sources */,
+				FADA50881DD2B6E60039DD9B /* Frameworks */,
+				FADA50891DD2B6E60039DD9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchResponse;
+			productName = TouchResponse;
+			productReference = FADA508B1DD2B6E60039DD9B /* TouchResponse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FADA50A31DD2B6E60039DD9B /* TouchResponseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADA50BB1DD2B6E60039DD9B /* Build configuration list for PBXNativeTarget "TouchResponseTests" */;
+			buildPhases = (
+				FADA50A01DD2B6E60039DD9B /* Sources */,
+				FADA50A11DD2B6E60039DD9B /* Frameworks */,
+				FADA50A21DD2B6E60039DD9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FADA50A61DD2B6E60039DD9B /* PBXTargetDependency */,
+			);
+			name = TouchResponseTests;
+			productName = TouchResponseTests;
+			productReference = FADA50A41DD2B6E60039DD9B /* TouchResponseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FADA50AE1DD2B6E60039DD9B /* TouchResponseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADA50BE1DD2B6E60039DD9B /* Build configuration list for PBXNativeTarget "TouchResponseUITests" */;
+			buildPhases = (
+				FADA50AB1DD2B6E60039DD9B /* Sources */,
+				FADA50AC1DD2B6E60039DD9B /* Frameworks */,
+				FADA50AD1DD2B6E60039DD9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FADA50B11DD2B6E60039DD9B /* PBXTargetDependency */,
+			);
+			name = TouchResponseUITests;
+			productName = TouchResponseUITests;
+			productReference = FADA50AF1DD2B6E60039DD9B /* TouchResponseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FADA50831DD2B6E60039DD9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = abner;
+				TargetAttributes = {
+					FADA508A1DD2B6E60039DD9B = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					FADA50A31DD2B6E60039DD9B = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FADA508A1DD2B6E60039DD9B;
+					};
+					FADA50AE1DD2B6E60039DD9B = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FADA508A1DD2B6E60039DD9B;
+					};
+				};
+			};
+			buildConfigurationList = FADA50861DD2B6E60039DD9B /* Build configuration list for PBXProject "TouchResponse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FADA50821DD2B6E60039DD9B;
+			productRefGroup = FADA508C1DD2B6E60039DD9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FADA508A1DD2B6E60039DD9B /* TouchResponse */,
+				FADA50A31DD2B6E60039DD9B /* TouchResponseTests */,
+				FADA50AE1DD2B6E60039DD9B /* TouchResponseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FADA50891DD2B6E60039DD9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADA509E1DD2B6E60039DD9B /* LaunchScreen.storyboard in Resources */,
+				FADA509B1DD2B6E60039DD9B /* Assets.xcassets in Resources */,
+				FADA50991DD2B6E60039DD9B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADA50A21DD2B6E60039DD9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADA50AD1DD2B6E60039DD9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FADA50871DD2B6E60039DD9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADA50961DD2B6E60039DD9B /* ViewController.m in Sources */,
+				FADA50931DD2B6E60039DD9B /* AppDelegate.m in Sources */,
+				FADA50901DD2B6E60039DD9B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADA50A01DD2B6E60039DD9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADA50A91DD2B6E60039DD9B /* TouchResponseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADA50AB1DD2B6E60039DD9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADA50B41DD2B6E60039DD9B /* TouchResponseUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FADA50A61DD2B6E60039DD9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FADA508A1DD2B6E60039DD9B /* TouchResponse */;
+			targetProxy = FADA50A51DD2B6E60039DD9B /* PBXContainerItemProxy */;
+		};
+		FADA50B11DD2B6E60039DD9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FADA508A1DD2B6E60039DD9B /* TouchResponse */;
+			targetProxy = FADA50B01DD2B6E60039DD9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FADA50971DD2B6E60039DD9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FADA50981DD2B6E60039DD9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FADA509C1DD2B6E60039DD9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FADA509D1DD2B6E60039DD9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FADA50B61DD2B6E60039DD9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FADA50B71DD2B6E60039DD9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FADA50B91DD2B6E60039DD9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TouchResponse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yudi.TouchResponse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FADA50BA1DD2B6E60039DD9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TouchResponse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yudi.TouchResponse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FADA50BC1DD2B6E60039DD9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TouchResponseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yudi.TouchResponseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchResponse.app/TouchResponse";
+			};
+			name = Debug;
+		};
+		FADA50BD1DD2B6E60039DD9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TouchResponseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yudi.TouchResponseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchResponse.app/TouchResponse";
+			};
+			name = Release;
+		};
+		FADA50BF1DD2B6E60039DD9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TouchResponseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yudi.TouchResponseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TouchResponse;
+			};
+			name = Debug;
+		};
+		FADA50C01DD2B6E60039DD9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TouchResponseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yudi.TouchResponseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TouchResponse;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FADA50861DD2B6E60039DD9B /* Build configuration list for PBXProject "TouchResponse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADA50B61DD2B6E60039DD9B /* Debug */,
+				FADA50B71DD2B6E60039DD9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADA50B81DD2B6E60039DD9B /* Build configuration list for PBXNativeTarget "TouchResponse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADA50B91DD2B6E60039DD9B /* Debug */,
+				FADA50BA1DD2B6E60039DD9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FADA50BB1DD2B6E60039DD9B /* Build configuration list for PBXNativeTarget "TouchResponseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADA50BC1DD2B6E60039DD9B /* Debug */,
+				FADA50BD1DD2B6E60039DD9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FADA50BE1DD2B6E60039DD9B /* Build configuration list for PBXNativeTarget "TouchResponseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADA50BF1DD2B6E60039DD9B /* Debug */,
+				FADA50C01DD2B6E60039DD9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FADA50831DD2B6E60039DD9B /* Project object */;
+}
